@@ -110,3 +110,28 @@ p{
 .review-two{
     width: 100%;
 }
+
+.about-text{
+    max-width: 70%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+.headshot{
+    margin-right: 100px;
+}
+
+h2{
+    font-size: 40px;
+    color: #2a3166;
+    margin-bottom: 0px;
+}
+
+
