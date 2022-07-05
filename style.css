@@ -29,11 +29,19 @@ li{
     align-items: center;
     width: 100%;
     font-size: 16px;
+    margin-bottom: 16px;
+    color: #2a3166;
 }
 
 img{
-    width: 500px;
+    max-width: 500px;
+    min-width: 100px;
     height: auto;
+    flex: 0 auto;
+    align-self: center;
+    flex-shrink: 1;
+    padding: 0px;
+    box-shadow: 3px 3px 20px 0px;
 }
 
 .main-content{
@@ -44,5 +52,31 @@ img{
 }
 
 p{
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.text-container{
+    padding: 12px;
     max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-button{
+    font-size: 40px;
+    display: flex;
+    color: white;
+    background-color:#2a3166 ;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buy-button:hover{
+    border-color: #2a3166;
+    background-color: white;
+    color: #2a3166;
 }
