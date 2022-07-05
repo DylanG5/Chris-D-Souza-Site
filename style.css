@@ -49,6 +49,7 @@ img{
     justify-content: space-around;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 100px;
 }
 
 p{
@@ -79,4 +80,33 @@ p{
     border-color: #2a3166;
     background-color: white;
     color: #2a3166;
+}
+
+.content-two{
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(190, 183, 183);
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+
+.quote{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.review-one{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.review-two{
+    width: 100%;
 }
