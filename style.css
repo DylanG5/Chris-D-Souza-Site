@@ -156,3 +156,7 @@ a, a:visited{
     text-decoration: none;
     color: inherit;
 }
+
+.about-text{
+    color: #2a3166;
+}
