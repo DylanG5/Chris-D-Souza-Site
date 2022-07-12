@@ -11,6 +11,7 @@ body{
 
 .header,.footer{
     display: flex;
+    flex-wrap: wrap;
     color: (80, 79, 79);
     background-color: white;
     justify-content: space-between;
@@ -159,4 +160,33 @@ a, a:visited{
 
 .about-text{
     color: #2a3166;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    background-image:url("images/HeadshotTshirt-cropjpeg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding-left: 8px;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.header-links{
+    padding-top: 8px;
+    padding-right: 8px;
 }
