@@ -163,6 +163,7 @@ a, a:visited{
 }
 
 .hero{
+    margin-top: 0px;
     display: flex;
     width: 100%;
     background-image:url("images/HeadshotTshirt-cropjpeg.jpg");
@@ -170,9 +171,10 @@ a, a:visited{
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
-    padding-left: 8px;
+    padding-left: 16px;
     justify-content: space-between;
     color: white;
+    flex-wrap: wrap;
 }
 
 .header-img{
@@ -182,6 +184,8 @@ a, a:visited{
 }
 
 h1{
+    margin-top: 0px;
+    padding-top: 16px;
     font-size: 80px;
     font-family: 'Cabin', sans-serif;
 }
@@ -190,3 +194,22 @@ h1{
     padding-top: 8px;
     padding-right: 8px;
 }
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.feature{
+    display: flex;
+    color: white;
+    justify-content: left;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-right: 70%;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
