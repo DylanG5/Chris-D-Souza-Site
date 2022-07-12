@@ -56,7 +56,7 @@ img{
     padding-top: 100px;
     padding-bottom: 100px;
     background: rgb(71,140,235);
-    background: radial-gradient(circle, rgba(71,140,235,0.8295693277310925) 0%, rgba(52,134,208,1) 50%, rgba(1,0,15,1) 100%);
+background: radial-gradient(circle, rgba(71,140,235,0.8295693277310925) 0%, rgba(10,26,41,1) 50%, rgba(5,12,19,0.9023984593837535) 77%, rgba(0,0,0,1) 100%);
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
