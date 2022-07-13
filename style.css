@@ -162,6 +162,7 @@ a, a:visited{
     background-size: cover;
     height: 750px;
     margin-bottom: 10px;
+    padding-right:16px;
 }
 .hero,.header{
     margin-top: 0px;
@@ -178,6 +179,9 @@ a, a:visited{
     align-items: center;
 }
 
+.hero-links{
+    padding-top: 16px;
+}
 ul.header-links{
     padding: 0px;
 }
