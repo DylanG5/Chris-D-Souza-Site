@@ -9,7 +9,7 @@ body{
     margin-bottom: 0px;
 }
 
-.header,.footer{
+.header{
     display: flex;
     flex-wrap: wrap;
     color: (80, 79, 79);
@@ -55,18 +55,20 @@ img{
 .main-content{
     padding-top: 100px;
     padding-bottom: 100px;
-    background: rgb(71,140,235);
-background: radial-gradient(circle, rgba(71,140,235,0.8295693277310925) 0%, rgba(10,26,41,1) 50%, rgba(5,12,19,0.9023984593837535) 77%, rgba(0,0,0,1) 100%);
+    background-image: url("images/Butterfly\ Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 p{
     max-width: 100%;
     font-size: 20px;
     line-height: 170%;
-    color: white;
+    color: black;
 }
 
 .text-container{
@@ -97,12 +99,12 @@ p{
 .content-two{
     display: flex;
     align-content: space-between;
-    background-color: rgb(190, 183, 183);
+    background-color: rgb(187, 184, 184);
     padding: 20px;
     text-align: center;
     flex-wrap: wrap;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -148,9 +150,12 @@ h2{
 }
 
 .footer{
-    
+    width: 100%;
     display: flex;
     justify-content: center;
+    color: white;
+    background-color: #2a3166;
+    flex-wrap: wrap;
 }
 
 a, a:visited{
@@ -213,3 +218,17 @@ h1{
     font-size: 40px;
 }
 
+.book-cover{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.link-list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rights{
+    color: white;
+    font-size: 10px;
+}
