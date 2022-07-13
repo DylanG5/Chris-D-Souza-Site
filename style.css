@@ -3,22 +3,8 @@ body{
     margin-right: 0px;
 }
 
-.header{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-}
 
-.header{
-    display: flex;
-    flex-wrap: wrap;
-    color: (80, 79, 79);
-    background-color: white;
-    justify-content: space-between;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    align-items: center;
-}
+
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -188,12 +174,17 @@ a, a:visited{
     background-color: #0F1626;
 }
 .header{
-    display: flex;
+    font-family: 'Montserrat';
     align-items: center;
 }
 
+ul.header-links{
+    padding: 0px;
+}
+
 .header h1{
-    font-size: 60px;
+    font-size: 30px;
+    display: flex;
 }
 
 .header-img{
