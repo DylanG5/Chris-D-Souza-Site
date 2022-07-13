@@ -21,6 +21,7 @@ body{
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -53,9 +54,9 @@ img{
 }
 
 .main-content{
+    background-color: #0F1626;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url("images/Butterfly\ Background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,7 +69,7 @@ p{
     max-width: 100%;
     font-size: 20px;
     line-height: 170%;
-    color: black;
+    color: #f5f5f5;
 }
 
 .text-container{
@@ -81,25 +82,26 @@ p{
 }
 
 .buy-button{
+    font-weight: 800;
     font-size: 40px;
     display: flex;
     color: white;
-    background-color:#2a3166 ;
+    background-color: #ff533d; ;
     transition-duration: 0.4s;
     border-radius: 10px;
     padding: 10px;
 }
 
 .buy-button:hover{
-    border-color: #2a3166;
+    border-color: #ff533d;
     background-color: white;
-    color: #2a3166;
+    color: #ff533d;
 }
 
 .content-two{
     display: flex;
     align-content: space-between;
-    background-color: rgb(187, 184, 184);
+    background-color: #ab987acc;
     padding: 20px;
     text-align: center;
     flex-wrap: wrap;
@@ -145,7 +147,7 @@ p{
 
 h2{
     font-size: 40px;
-    color: #2a3166;
+    color: #0F1626;
     margin-bottom: 0px;
 }
 
@@ -153,8 +155,8 @@ h2{
     width: 100%;
     display: flex;
     justify-content: center;
-    color: white;
-    background-color: #2a3166;
+    color: #f5f5f5;
+    background-color: #0F1626;
     flex-wrap: wrap;
 }
 
@@ -164,22 +166,33 @@ a, a:visited{
 }
 
 .about-text{
-    color: #2a3166;
+    color: #0F1626;
 }
 
 .hero{
-    margin-top: 0px;
-    display: flex;
-    width: 100%;
     background-image:url("images/HeadshotTshirt-cropjpeg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
+}
+.hero,.header{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
     padding-left: 16px;
     justify-content: space-between;
     color: white;
     flex-wrap: wrap;
+    background-color: #0F1626;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 60px;
 }
 
 .header-img{
@@ -188,15 +201,18 @@ a, a:visited{
     height: auto;
 }
 
+
 h1{
     margin-top: 0px;
     padding-top: 16px;
     font-size: 80px;
     font-family: 'Cabin', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
 }
 
 .header-links{
-    padding-top: 8px;
+    padding-top: 16px;
     padding-right: 8px;
 }
 
@@ -231,4 +247,13 @@ h1{
 .rights{
     color: white;
     font-size: 10px;
+}
+
+.divider{
+    background-image: url("images/Butterfly\ line.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
 }
