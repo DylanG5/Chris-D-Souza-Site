@@ -86,16 +86,16 @@ p{
     font-size: 40px;
     display: flex;
     color: white;
-    background-color: #ff533d; ;
+    background-color: #CC5500; ;
     transition-duration: 0.4s;
     border-radius: 10px;
     padding: 10px;
 }
 
 .buy-button:hover{
-    border-color: #ff533d;
+    border-color: #CC5500;
     background-color: white;
-    color: #ff533d;
+    color: #CC5500;
 }
 
 .content-two{
@@ -175,6 +175,7 @@ a, a:visited{
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
+    margin-bottom: 10px;
 }
 .hero,.header{
     margin-top: 0px;
