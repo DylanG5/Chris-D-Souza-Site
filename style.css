@@ -11,10 +11,12 @@ ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
+
 }
 
 li{
     padding: 10px;
+    font-weight: 700;
 }
 
 .name{
@@ -59,12 +61,23 @@ p{
 }
 
 .text-container{
-    padding: 12px;
-    max-width: 40%;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:650px) {
+    .main-content{
+        flex-wrap: wrap;
+    }
+    .text-container{
+        width: 90%;
+    }
+    
 }
 
 .buy-button{
