@@ -7,3 +7,13 @@ if(hamburger){
 else{
     console.log("HI")
 }
+
+const hamburgerSub=document.getElementById('hamburger-icon-sub');
+if(hamburgerSub){
+    hamburgerSub.addEventListener('click',()=>{
+        hamburgerSub.classList.toggle('open')
+    })
+}
+else{
+    console.log("HI - sub")
+}
