@@ -43,7 +43,6 @@ img{
     align-self: center;
     flex-shrink: 1;
     padding: 0px;
-    box-shadow: 3px 3px 20px 0px;
 }
 
 .main-content{
@@ -63,6 +62,7 @@ p{
     font-size: 20px;
     line-height: 170%;
     color: #f5f5f5;
+    margin: 0em;
 }
 
 .text-container{
@@ -112,7 +112,9 @@ p{
     background-color: #0f162667;
     height: fit-content;
 }
-
+.about-right{
+    display: flex;
+}
 .mobile-menu{
     display: none;
     position: absolute;
@@ -131,7 +133,11 @@ p{
     background-color: #0f1626ee;
     height: fit-content;
 }
-
+.headshot{
+    margin-right: 100px;
+    margin-bottom: 50px;
+    flex: auto;
+}
 .mobile-menu-sub{
     display: none;
     position: absolute;
@@ -140,70 +146,6 @@ p{
     height: calc(100vh - 50px);
     width: 100%;
 }
-@media only screen and (max-width:990px){
-    .header-links{
-        display: none;
-    }
-
-    #hamburger-icon-sub {
-        display:flex;
-        flex-direction: column;
-        align-items: flex-start;
-        cursor: pointer;
-    }
-
-    #hamburger-icon-sub div{
-        background-color: white;
-        transition: 0.4s;
-        margin: 3px 8px;
-        width: 35px;
-        height: 3px;
-    }
-     .open.mobile-menu{
-        background-color: #0F1626;
-        color: #0F1626;
-    }
-}
-@media only screen and (max-width:800px) {
-    .main-content{
-        flex-wrap: wrap;
-    }
-    .text-container{
-        width: 90%;
-    }
-
-    .hero-links, .header-links{
-        display: none;
-    }
-
-    #hamburger-icon{
-        align-items: flex-start;
-        display: flex;
-    }
-
-    .about{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .about-text{
-        max-width: 90%;
-        margin: 0px;
-    }
-    
-    .headshot{
-        margin: 0px;
-    }
-
-    .header-top h1{
-        font-size: 7vw;
-    }
-
-    .feature em{
-        font-size: 25px;
-    }
-}
-
 .buy-button{
     font-weight: 800;
     font-size: 40px;
@@ -263,11 +205,6 @@ p{
     margin-top: 60px;
 }
 
-.headshot{
-    margin-right: 100px;
-    margin-bottom: 50px;
-    flex: auto;
-}
 
 h2{
     font-size: 40px;
@@ -377,6 +314,7 @@ h1{
 
 .book-cover{
     transform: perspective(600px) rotateY(0deg);
+    box-shadow: 3px 3px 20px 0px;
 }
 
 .link-list{
@@ -397,4 +335,108 @@ h1{
     background-size: cover;
     height: 100px;
     width: 100%;
+}
+
+
+@media only screen and (max-width:990px){
+    .header-links{
+        display: none;
+    }
+
+    #hamburger-icon-sub {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        cursor: pointer;
+    }
+
+    #hamburger-icon-sub div{
+        background-color: white;
+        transition: 0.4s;
+        margin: 3px 8px;
+        width: 35px;
+        height: 3px;
+    }
+     .open.mobile-menu{
+        background-color: #0F1626;
+        color: #0F1626;
+    }
+}
+@media only screen and (max-width:800px) {
+    .main-content{
+        flex-wrap: wrap;
+    }
+    .text-container{
+        width: 90%;
+    }
+
+    .hero-links, .header-links{
+        display: none;
+    }
+
+    #hamburger-icon{
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-text{
+        max-width: 100%;
+        margin: 0px;
+    }
+    
+    .headshot{
+        max-width: 80%;
+        margin: 0px;
+    }
+
+    .header-top h1{
+        font-size: 7vw;
+    }
+
+    .feature em{
+        font-size: 25px;
+    }
+    .about-text{
+        display: flex;
+        margin-right: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    p{
+        max-width: 100%;
+        width: 90%;
+    }
+    .about-left{
+        max-width: 80%;
+        margin: 0px;
+    }
+    .headshot{
+        max-width: 80%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .about-right{
+        width: 100%;
+    }
 }
