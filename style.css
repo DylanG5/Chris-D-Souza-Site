@@ -44,9 +44,12 @@ img{
     flex-shrink: 1;
     padding: 0px;
 }
-
+p.text-container{
+    color: #0F1626;
+}
 .main-content{
-    background-color: #0F1626;
+    background-color: white;
+    color: #0F1626;
     padding-top: 100px;
     padding-bottom: 100px;
     background-repeat: no-repeat;
@@ -73,6 +76,10 @@ p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.text-container p{
+    color: #0F1626;
 }
 
 #hamburger-icon{
@@ -102,7 +109,10 @@ p{
     transition: 0.4s;
     margin: 3px 0px;
 }
-
+.small-page{
+    position: fixed;
+    bottom: 0;
+}
 .open .mobile-menu{
     padding-right: 16px;
     display: flex;
@@ -119,6 +129,12 @@ p{
 .lyrics{
     color: #0F1626;
     text-align: center;
+}
+.shout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 16px;
 }
 
 .song-name{
@@ -338,8 +354,8 @@ h1{
 }
 
 .book-cover{
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 3px 3px 20px 0px;
+    width: 30vw;
+    height: auto;
 }
 
 .link-list{
@@ -369,6 +385,13 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
+.audio-container{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 .contact{
     display: flex;
@@ -469,6 +492,10 @@ h1{
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
+    }
+    .book-cover{
+        width: 60vw;
+        height: auto;
     }
 }
 
