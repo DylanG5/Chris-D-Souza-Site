@@ -354,7 +354,6 @@ h1{
     text-align: center;
     width: 100%;
 }
-.lyric-title{}
 .divider{
     background-image: url("images/Butterfly\ line.png");
     background-position: center;
@@ -371,6 +370,31 @@ h1{
     align-items: center;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+.email{
+    padding-bottom: 12px;
+}
+
+.title{
+    text-align: center;
+}
+
+.box{
+    margin-bottom: 12px;
+    text-align: center;
+    background-color: #0f1626cb;
+    color: white;
+    padding: 16px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
 
 @media only screen and (max-width:990px){
     .header-links{
