@@ -104,6 +104,7 @@ p{
 }
 
 .open .mobile-menu{
+    padding-top: 20px;
     padding-right: 16px;
     display: flex;
     flex-direction: column;
@@ -326,6 +327,8 @@ h1{
 .rights{
     color: white;
     font-size: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .divider{
@@ -335,6 +338,12 @@ h1{
     background-size: cover;
     height: 100px;
     width: 100%;
+}
+
+.song1{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -394,7 +403,7 @@ h1{
         margin: 0px;
     }
 
-    .header-top h1{
+    .header-top h1,#name-header{
         font-size: 7vw;
     }
 
@@ -439,4 +448,13 @@ h1{
     .about-right{
         width: 100%;
     }
+    .text-container{
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+iframe{
+    width: 50vw;
+    height: calc(50vw/1.77);
 }
