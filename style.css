@@ -435,6 +435,10 @@ h1.new{
     padding-bottom: 12px;
 }
 
+h5{
+    margin: 0px;
+    padding: 6px;
+}
 .title{
     text-align: center;
 }
