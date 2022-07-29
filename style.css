@@ -454,24 +454,47 @@ h5{
 }
 
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: #0F1626;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
   }
   .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: #0f1626c5;
   }
   .sample {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+  }
+  .sample-image{
+    width: 25%;
+    height: auto;
+  }
+  p.sample-text{
+    width: 50%;
+    color: #0F1626;
+    font-size: 18px;
+  }
+  .sample-container{
+    padding-top: 25px;
+    display: flex;
+    color: #0F1626;
+    flex-wrap: wrap;
+  }
+  .row-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 32px;
   }
   .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -507,6 +530,16 @@ h5{
      .open.mobile-menu{
         background-color: #0F1626;
         color: #0F1626;
+    }
+    .row-container{
+        flex-wrap: wrap;
+    }
+    p.sample-text{
+        width: 80%;
+    }
+    .sample-image{
+        width: 40%;
+        height: auto;
     }
 }
 @media only screen and (max-width:800px) {
