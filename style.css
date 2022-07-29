@@ -68,6 +68,20 @@ p{
     margin: 0em;
 }
 
+#kicking-elephant{
+    background-color:#ab987a75 ;
+}
+.description{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.book-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 32px;
+}
 .text-container{
     width: 50%;
     padding-left: 50px;
@@ -204,6 +218,14 @@ span{
     color: #CC5500;
 }
 
+.feature-book{
+    display: flex;
+    justify-content: space-around;
+}
+
+.description{
+    text-align: center;
+}
 .content-two{
     display: flex;
     align-content: space-between;
@@ -382,7 +404,6 @@ h1{
 h1.new{
     text-align: center;
     color: #3241af;
-    background-color: white;
     padding-top: 50px;
     font-family: 'sans-serif';
     font-size: 40px;
@@ -427,6 +448,38 @@ h1.new{
     margin-right: 12px;
     margin-left: 12px;
 }
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  .sample {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
 
 @media only screen and (max-width:990px){
     .header-links{
@@ -505,6 +558,9 @@ h1.new{
     .book-cover{
         width: 60vw;
         height: auto;
+    }
+    .book-container{
+        flex-wrap: wrap;
     }
 }
 
