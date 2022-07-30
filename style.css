@@ -581,7 +581,7 @@ h5{
     .testimonial-card{
         width: 35%;
     }
-    .footer.small-page{
+    .footer.small-page.testimonial{
         position:relative;
     }
 }
