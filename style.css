@@ -534,11 +534,14 @@ h5{
     .row-container{
         flex-wrap: wrap;
     }
+    .row-container.rc-two{
+        flex-wrap: wrap-reverse;
+    }
     p.sample-text{
         width: 80%;
     }
     .sample-image{
-        width: 40%;
+        width: 60%;
         height: auto;
     }
 }
