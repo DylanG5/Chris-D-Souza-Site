@@ -507,7 +507,41 @@ h5{
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+  .subpage-title{
+    margin-bottom: 16px;
+    font-size: 30px;
+    color: white;
+    background-color: #0f1626c9;
+    text-align: center;
+  }
 
+  .testimonials-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .testimonial-card{
+    display: flex;
+    flex-wrap: wrap;
+    color: #0F1626;
+    min-width:200px ;
+    width: 20%;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.432);
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .testimonial-content{
+    width: 100%;
+    color: #0F1626;
+    font-size: 15px;
+  }
+  .bottom-card{
+    align-self: flex-end;
+  }
 @media only screen and (max-width:990px){
     .header-links{
         display: none;
@@ -543,6 +577,12 @@ h5{
     .sample-image{
         width: 60%;
         height: auto;
+    }
+    .testimonial-card{
+        width: 35%;
+    }
+    .footer.small-page{
+        position:relative;
     }
 }
 @media only screen and (max-width:800px) {
