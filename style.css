@@ -163,6 +163,9 @@ p{
     background-color: antiquewhite;
 
 }
+.song2{
+    padding-bottom: 24px;
+}
 
 span{
     display: block;
@@ -206,16 +209,16 @@ span{
     font-size: 40px;
     display: flex;
     color: white;
-    background-color: #CC5500; ;
+    background-color: #243d79; 
     transition-duration: 0.4s;
     border-radius: 10px;
     padding: 10px;
 }
 
 .buy-button:hover{
-    border-color: #CC5500;
+    border-color: #243d79;
     background-color: white;
-    color: #CC5500;
+    color: #243d79;
 }
 
 .feature-book{
@@ -229,7 +232,7 @@ span{
 .content-two{
     display: flex;
     align-content: space-between;
-    background-color: #ab987acc;
+    background-color: #0f162650;
     padding: 20px;
     text-align: center;
     flex-wrap: wrap;
@@ -256,16 +259,22 @@ span{
 }
 
 .about-text{
-    max-width: 70%;
+    max-width: 80%;
+    text-align: justify;
+    font-family: 'Montserrat';
 }
 
 .about{
+    font-family: 'Montserrat';
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-left: 100px;
     margin-right: 30px;
     margin-top: 60px;
+}
+.about h2{
+    margin: 0px;
+    font-weight: 900;
 }
 
 
@@ -614,7 +623,6 @@ h5{
     
     .headshot{
         max-width: 80%;
-        margin: 0px;
     }
 
     .header-top h1,#name-header{
