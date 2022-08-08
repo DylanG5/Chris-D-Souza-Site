@@ -303,6 +303,10 @@ span{
     font-weight: 900;
 }
 
+.feature-book{
+    border-bottom:  50px solid #0F1626;
+}
+
 .abstract{
     display: flex;
     text-align: center;
