@@ -480,14 +480,22 @@ h1.new{
     width: 100%;
 }
 
+h3.title{
+    font-size: 4vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 12px;
 
+}
 .contact{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px ;
+    align-content: center;
     padding: 12px;
     flex-wrap: wrap;
+    font-size: 6vh;
+    height: 500px;
 }
 .email{
     padding-bottom: 12px;
@@ -608,10 +616,13 @@ h5{
     font-size: 1.5vw;
     flex-wrap: wrap;
   }
-  a.event-site{
-    padding: 25px;
+  a.event-site, .abstract-title a{
     color: blue;
     text-align: center;
+    text-decoration: underline;
+  }
+  a.event-site{
+    padding: 25px;
   }
   .summit{
     font-size:2vw;
@@ -802,6 +813,12 @@ h5{
     }
     .column{
         max-width: 80%;
+    }
+    h3.title{
+        font-size: 6vw;
+    }
+    .contact{
+        font-size: 6vw;
     }
 
 }
