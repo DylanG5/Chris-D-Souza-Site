@@ -387,8 +387,12 @@ ul.header-links{
 .header h1{
     font-size: 30px;
     display: flex;
-}
 
+}
+#name-header a:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
 .header-img{
     max-width: 100%;
     width: 100%;
