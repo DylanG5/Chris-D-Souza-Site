@@ -43,9 +43,13 @@ img {
 }
 p.text-container {
     color: #0f1626;
+    font-size: 23px;
+}
+p.small-text {
+    font-size: 23px;
 }
 .main-content {
-    background-color: #ab987a75;
+    background-color: white;
     color: #0f1626;
     padding-top: 20px;
     padding-bottom: 100px;
@@ -674,7 +678,6 @@ a.event-site {
     width: 100%;
     text-align: center;
     font-family: "Montserrat";
-    font-weight: bold;
     align-items: center;
     flex-wrap: wrap-reverse;
     padding-bottom: 20px;
