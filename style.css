@@ -11,6 +11,27 @@ ul {
     margin: 0px;
 }
 
+ul.schedule {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+div.schedule-container {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+div.schedule-container p.text-container {
+    width: 100%;
+}
+
 li {
     padding: 10px;
     font-weight: 700;
@@ -108,6 +129,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .text-container p {
@@ -468,6 +490,13 @@ h1 {
     text-align: center;
     width: 100%;
 }
+.name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a3166;
+    padding: 20px 0;
+}
 .divider {
     background-image: url("images/Butterfly\ line.png");
     background-position: center;
@@ -681,6 +710,14 @@ a.event-site {
     align-items: center;
     flex-wrap: wrap-reverse;
     padding-bottom: 20px;
+}
+
+.schedule-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: auto;
+    max-width: 800px;
 }
 p.text-container {
     flex-wrap: wrap;
