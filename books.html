@@ -1,287 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Books</title>
-        <link rel="stylesheet" href="style.css" />
-        <link
-            rel="stylesheet"
-            href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap"
-            rel="stylesheet"
-        />
-        <script src="script.js" defer></script>
-    </head>
-    <body>
-        <div class="header">
-            <h1 id="name-header"><a href="index.html">Chris D'Souza</a></h1>
-            <ul class="header-links">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books — Chris D'Souza</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1 id="name-header"><a href="index.html">Chris D'Souza</a></h1>
+        <ul class="header-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="lecture.html">Workshops</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="testimonial.html">Testimonials</a></li>
+            <li><a href="songs.html">Songs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="hamburger-icon-sub">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu-sub">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="DEI.html">DEI Summit 2025</a></li>
-                <li><a href="DEI_schedule.html">DEI Summit Schedule</a></li>
-                <li><a href="books.html">Books</a></li>
-                <li><a href="lecture.html">Workshops</a></li>
-                <li><a href="events.html">Upcoming Events</a></li>
-                <li><a href="testimonial.html">Testimonial</a></li>
-                <li><a href="songs.html">Songs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div id="hamburger-icon-sub">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-                <ul class="mobile-menu-sub">
-                    <li><a href="DEI.html">DEI Summit 2025</a></li>
-                    <li><a href="DEI_schedule.html">DEI Summit Schedule</a></li>
-                    <li><a href="books.html">Books</a></li>
-                    <li><a href="lecture.html">Workshops</a></li>
-                    <li><a href="events.html">Upcoming Events</a></li>
-                    <li><a href="testimonial.html">Testimonials</a></li>
-                    <li><a href="songs.html">Songs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <h1 class="subpage-title">Books</h1>
-        <h1 class="new">New Book!</h1>
-        <div class="book-container feature-book">
-            <img class="book-cover" src="images/cover3D.jpg" />
-            <div class="text-container">
-                <p>
-                    <b
-                        ><span
-                            >C.R.A.S.H. Course on Anti-Oppression- Examining
-                            Classism, Racism, Ableism, Sexism and
-                            Heterosexism.</span
-                        >
-                    </b>
-                    This brand new text released in May 2022, is a compilation
-                    of my life's work and is designed to increase one's
-                    meta-cognition around mechanisms of power, privilege and how
-                    oppression can impact those with potentially marginalizing
-                    identities. It can be read in a day and is divided into
-                    three parts: 1) C.R.A.S.H- which names the oppressions and
-                    includes key tenets and thought catalysts. 2). Unpacking the
-                    "B.S." in Bias which examines bias construction and
-                    de-construction and 3). Stories and events that caused me to
-                    become an equity and human rights strategist.The book is
-                    perfect for educators, managers, parents and anyone who
-                    wants to sharpen their equity lens. It can be used a core
-                    text for book study groups as well.
-                </p>
-                <button class="buy-button">
-                    <a href="https://buy.stripe.com/bIY4itc4F6ME3kI4gh"
-                        >Buy Here!</a
-                    >
-                </button>
-            </div>
-        </div>
-        <div id="chili">
-            <h1 class="new">Chilli Burn Me Tongue</h1>
-            <div class="book-container">
-                <img id="chili-cover" src="images/chili-cover.png" />
-                <div class="text-container">
-                    <p>
-                        <b>"Chilli Burn Me Tongue"</b> takes a fun look at West
-                        Indian and East Indian food culture. Included are fun
-                        food facts that link the history of spicy food to equity
-                        and inclusion as well as environmental ethics.
-                    </p>
-                    <button class="buy-button">
-                        <a href="https://buy.stripe.com/7sIg1b6Kl7QI4oM147"
-                            >Buy Here!</a
-                        >
-                    </button>
-                </div>
-            </div>
-        </div>
-        <button type="button" class="collapsible">
-            Read sample content here!
-        </button>
-        <div class="sample">
-            <div class="sample-container">
-                <div class="row-container">
-                    <img class="sample-image" src="images/chili-1.png" />
-                    <p class="sample-text">
-                        Cadence eat the chilli, and the chilli burn her
-                        tongue..early next morning chilli burn her bum. (Its
-                        called the double-burner)
-                    </p>
-                </div>
-                <div class="row-container rc-two">
-                    <p class="sample-text">
-                        She run to the bathroom and she call her mom. Screaming,
-                        “Mommy, Mommy, Chilli burned me bum.” She wished someone
-                        had warned her.
-                    </p>
-                    <img class="sample-image" src="images/chili-2.png" />
-                </div>
-                <div class="row-container">
-                    <img class="sample-image" src="images/chili-3.png" />
-                    <p class="sample-text">
-                        Cadence in the bathroom screaming “Mom I’m done!.” But
-                        then she changed her mind because it still burned her
-                        bum. (Chilli nearly ruined her).
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="taxi-driver">
-            <h1 class="new">Why Are All The Taxi Drivers...?</h1>
-            <div class="book-container">
-                <img id="taxi-cover" src="images/Taxi-Cover.jpg" />
-                <div class="text-container">
-                    <p>
-                        <b>"Why Are All The Taxi Drivers...?" </b>examines
-                        commonly held sterotypes and is designed to be a
-                        conversation starter for parents/guardians and educators
-                        with children.
-                    </p>
-                    <button class="buy-button">
-                        <a href="https://buy.stripe.com/cN23ep5Gh4Ew1cA7su"
-                            >Buy Here!</a
-                        >
-                    </button>
-                </div>
-            </div>
-            <button type="button" class="collapsible">
-                Read sample content here!
-            </button>
-            <div class="sample">
-                <div class="sample-container">
-                    <div class="row-container">
-                        <img class="sample-image" src="images/taxi-1.png" />
-                        <p class="sample-text">
-                            One day while Dakota was watching T.V., she suddenly
-                            jumped up and said: “Hey Mommy, why are all the taxi
-                            drivers brown?”
-                        </p>
-                    </div>
-                    <div class="row-container rc-two">
-                        <p class="sample-text">
-                            And her mother thought about the question and
-                            frowned. And she was about to reply... But Dakota
-                            interrupted her and said: “Why is it always a
-                            certain suspect that the person on the news is
-                            looking for? Mom, I’ve started noticing it more and
-                            more...” And her mother thought about the questions
-                            she couldn’t ignore. And she was about to reply...
-                            But Dakota interrupted her again and said: “Are
-                            people treated differently because of the colour of
-                            their skin, or whether they are tall or short or
-                            large or thin?”
-                        </p>
-                        <img class="sample-image" src="images/taxi-2.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="kicking-elephant">
-            <h1 class="new">Kicking the Elephant's Ankle</h1>
-            <h5 class="description">
-                An allegory that critiques the impact of colonialism on
-                Indigenous peoples globally
-            </h5>
-            <div class="book-container">
-                <img id="elephant-cover" src="images/Elephant-cover.png" />
-                <div class="text-container">
-                    <p>
-                        <b>"Kicking the Elephant’s Ankle"</b> is a children's
-                        storybook that examines bullying and processes to combat
-                        it. It is made up of an allegorical narrative that
-                        critiques colonialism (as a form of bullying) and its
-                        impact on indigenous people globally. It follows the
-                        relationship between "Euro" the elephant and "Adam" the
-                        ant and his colony (tribe) of ants.
-                    </p>
-                </div>
-            </div>
-            <button type="button" class="collapsible">
-                Read sample content here!
-            </button>
-            <div class="sample">
-                <div class="sample-container">
-                    <div class="row-container">
-                        <img
-                            class="sample-image"
-                            src="images/kicking-the-elephant-ankle-1.jpg"
-                        />
-                        <p class="sample-text">
-                            Euro the elephant asked Adam and his tribe if he
-                            could graze on their land ‘cause the trees were real
-                            ripe. Adam said, “Sure thing, as long as you share
-                            the fruit. Just watch out where you step and be
-                            careful where you poop. But when Adam returned the
-                            next day to his mound he found that his anthill had
-                            been squashed to the ground. The imperial elephant
-                            kept all of the wealth, and had posted a sign
-                            claiming the trees to himself. Now Adam and his
-                            ancestors had forever toiled this land and they
-                            refused to be displaced, so they took a firm stand.
-                            They shouted and demanded that the elephant shift
-                            but the hegemonic beast did nothing but resist.
-                        </p>
-                    </div>
-                    <div class="row-container rc-two">
-                        <p class="sample-text">
-                            They could not understand why Euro would not share
-                            but the ants soon realized that it just did not
-                            care. They chewed on his ankle and they chomped on
-                            his toes but the behemoth kept on eating only
-                            stopping to doze. So Adam put the word out to the
-                            other colonies around and begged them to come help
-                            his tribe take back their mound. He texted and he
-                            emailed, he blogged and he tweeted, he was ADAM-ANT
-                            that his colony would not be defeated. They came
-                            from the west, and they marched from the east, North
-                            and South came together, to get rid off the beast.
-                            They crawled up the ankle and marched up his shin.
-                            In a matter of hours they had covered his skin. In a
-                            synchronized attack they all a bit him on cue, Using
-                            razor sharp teeth they began a unified chew. The
-                            elephant screamed and dropped to his knees he cried
-                            and he pleaded and admitted defeat.
-                        </p>
-                        <img
-                            class="sample-image"
-                            src="images/kicking-the-elephant-ankle-2.jpg"
-                        />
-                    </div>
-                    <div class="row-container">
-                        <img
-                            class="sample-image"
-                            src="images/kicking-the-elephant-ankle-3.jpg"
-                        />
-                        <p class="sample-text">
-                            The ants retreated humbly and returned to their
-                            homelands leaving Adam with Euro to work out a plan.
-                            The two of them negotiated a treaty that was fair in
-                            which the elephant and ants would get an equitable
-                            share. Euro would eat from the tree but would knock
-                            down some fruit and he would be careful where he
-                            stepped, and careful where he pooped. I wish I could
-                            say that the treaty was honored forever but history
-                            is proving that this could be a life long endeavor.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <ul class="link-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="DEI.html">DEI Summit 2025</a></li>
-                <li><a href="DEI_schedule.html">DEI Summit Schedule</a></li>
                 <li><a href="books.html">Books</a></li>
                 <li><a href="lecture.html">Workshops</a></li>
                 <li><a href="events.html">Upcoming Events</a></li>
@@ -289,7 +34,126 @@
                 <li><a href="songs.html">Songs</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <p class="rights">© Copyright. All Rights Reserved.</p>
         </div>
-    </body>
+    </div>
+
+    <h1 class="subpage-title">Books</h1>
+
+    <div class="book-container feature-book">
+        <img class="book-cover" src="images/cover-transparent.png" alt="C.R.A.S.H. Course on Anti-Oppression book cover">
+        <div class="text-container">
+            <p>
+                <b><span>C.R.A.S.H. Course on Anti-Oppression — Examining Classism, Racism, Ableism, Sexism and Heterosexism.</span></b>
+                This brand new text released in May 2022 is a compilation of my life's work and is designed to increase one's meta-cognition around mechanisms of power, privilege and how oppression can impact those with potentially marginalizing identities. It can be read in a day and is divided into three parts: 1) C.R.A.S.H — which names the oppressions and includes key tenets and thought catalysts. 2) Unpacking the "B.S." in Bias, which examines bias construction and de-construction, and 3) Stories and events that caused me to become an equity and human rights strategist. The book is perfect for educators, managers, parents and anyone who wants to sharpen their equity lens. It can be used as a core text for book study groups as well.
+            </p>
+            <button class="buy-button">
+                <a href="https://buy.stripe.com/bIY4itc4F6ME3kI4gh">Buy Here</a>
+            </button>
+        </div>
+    </div>
+
+    <div id="chili">
+        <h1 class="new">Chilli Burn Me Tongue</h1>
+        <div class="book-container">
+            <img id="chili-cover" src="images/chili-cover.png" alt="Chilli Burn Me Tongue book cover">
+            <div class="text-container">
+                <p>
+                    <b>"Chilli Burn Me Tongue"</b> takes a fun look at West Indian and East Indian food culture. Included are fun food facts that link the history of spicy food to equity and inclusion as well as environmental ethics.
+                </p>
+                <button class="buy-button">
+                    <a href="https://buy.stripe.com/7sIg1b6Kl7QI4oM147">Buy Here</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="collapsible">Read sample content here!</button>
+    <div class="sample">
+        <div class="sample-container">
+            <div class="row-container">
+                <img class="sample-image" src="images/chili-1.png" alt="Chili book sample page 1">
+                <p class="sample-text">Cadence eat the chilli, and the chilli burn her tongue… early next morning chilli burn her bum. (It's called the double-burner)</p>
+            </div>
+            <div class="row-container rc-two">
+                <p class="sample-text">She run to the bathroom and she call her mom. Screaming, "Mommy, Mommy, Chilli burned me bum." She wished someone had warned her.</p>
+                <img class="sample-image" src="images/chili-2.png" alt="Chili book sample page 2">
+            </div>
+            <div class="row-container">
+                <img class="sample-image" src="images/chili-3.png" alt="Chili book sample page 3">
+                <p class="sample-text">Cadence in the bathroom screaming "Mom I'm done!" But then she changed her mind because it still burned her bum. (Chilli nearly ruined her).</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="taxi-driver">
+        <h1 class="new">Why Are All The Taxi Drivers...?</h1>
+        <div class="book-container">
+            <img id="taxi-cover" src="images/Taxi-Cover.jpg" alt="Why Are All The Taxi Drivers book cover">
+            <div class="text-container">
+                <p>
+                    <b>"Why Are All The Taxi Drivers...?"</b> examines commonly held stereotypes and is designed to be a conversation starter for parents/guardians and educators with children.
+                </p>
+                <button class="buy-button">
+                    <a href="https://buy.stripe.com/cN23ep5Gh4Ew1cA7su">Buy Here</a>
+                </button>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Read sample content here!</button>
+        <div class="sample">
+            <div class="sample-container">
+                <div class="row-container">
+                    <img class="sample-image" src="images/taxi-1.png" alt="Taxi book sample page 1">
+                    <p class="sample-text">One day while Dakota was watching T.V., she suddenly jumped up and said: "Hey Mommy, why are all the taxi drivers brown?"</p>
+                </div>
+                <div class="row-container rc-two">
+                    <p class="sample-text">And her mother thought about the question and frowned. And she was about to reply… But Dakota interrupted her and said: "Why is it always a certain suspect that the person on the news is looking for? Mom, I've started noticing it more and more…" And her mother thought about the questions she couldn't ignore. And she was about to reply… But Dakota interrupted her again and said: "Are people treated differently because of the colour of their skin, or whether they are tall or short or large or thin?"</p>
+                    <img class="sample-image" src="images/taxi-2.png" alt="Taxi book sample page 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="kicking-elephant">
+        <h1 class="new">Kicking the Elephant's Ankle</h1>
+        <h5 class="description" style="font-family: var(--font-body); font-size: 1rem; color: var(--text-body); text-align: center; font-weight: 400; letter-spacing: normal; text-transform: none; padding: 0 40px 8px;">An allegory that critiques the impact of colonialism on Indigenous peoples globally</h5>
+        <div class="book-container">
+            <img id="elephant-cover" src="images/Elephant-cover.png" alt="Kicking the Elephant's Ankle book cover">
+            <div class="text-container">
+                <p>
+                    <b>"Kicking the Elephant's Ankle"</b> is a children's storybook that examines bullying and processes to combat it. It is made up of an allegorical narrative that critiques colonialism (as a form of bullying) and its impact on indigenous people globally. It follows the relationship between "Euro" the elephant and "Adam" the ant and his colony (tribe) of ants.
+                </p>
+            </div>
+        </div>
+        <button type="button" class="collapsible">Read sample content here!</button>
+        <div class="sample">
+            <div class="sample-container">
+                <div class="row-container">
+                    <img class="sample-image" src="images/kicking-the-elephant-ankle-1.jpg" alt="Kicking the Elephant's Ankle sample page 1">
+                    <p class="sample-text">Euro the elephant asked Adam and his tribe if he could graze on their land 'cause the trees were real ripe. Adam said, "Sure thing, as long as you share the fruit. Just watch out where you step and be careful where you poop." But when Adam returned the next day to his mound he found that his anthill had been squashed to the ground. The imperial elephant kept all of the wealth, and had posted a sign claiming the trees to himself. Now Adam and his ancestors had forever toiled this land and they refused to be displaced, so they took a firm stand. They shouted and demanded that the elephant shift but the hegemonic beast did nothing but resist.</p>
+                </div>
+                <div class="row-container rc-two">
+                    <p class="sample-text">They could not understand why Euro would not share but the ants soon realized that it just did not care. They chewed on his ankle and they chomped on his toes but the behemoth kept on eating only stopping to doze. So Adam put the word out to the other colonies around and begged them to come help his tribe take back their mound. He texted and he emailed, he blogged and he tweeted, he was ADAM-ANT that his colony would not be defeated. They came from the west, and they marched from the east, North and South came together, to get rid of the beast. They crawled up the ankle and marched up his shin. In a matter of hours they had covered his skin. In a synchronized attack they all bit him on cue, using razor-sharp teeth they began a unified chew. The elephant screamed and dropped to his knees — he cried and he pleaded and admitted defeat.</p>
+                    <img class="sample-image" src="images/kicking-the-elephant-ankle-2.jpg" alt="Kicking the Elephant's Ankle sample page 2">
+                </div>
+                <div class="row-container">
+                    <img class="sample-image" src="images/kicking-the-elephant-ankle-3.jpg" alt="Kicking the Elephant's Ankle sample page 3">
+                    <p class="sample-text">The ants retreated humbly and returned to their homelands leaving Adam with Euro to work out a plan. The two of them negotiated a treaty that was fair in which the elephant and ants would get an equitable share. Euro would eat from the tree but would knock down some fruit and he would be careful where he stepped, and careful where he pooped. I wish I could say that the treaty was honored forever but history is proving that this could be a life-long endeavor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="link-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="lecture.html">Workshops</a></li>
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="testimonial.html">Testimonials</a></li>
+            <li><a href="songs.html">Songs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="rights">© Copyright. All Rights Reserved.</p>
+    </div>
+</body>
 </html>
